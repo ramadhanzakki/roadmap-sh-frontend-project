@@ -1,4 +1,4 @@
-# 🗺️ Roadmap.sh Projects Collection
+# 🗺️ Roadmap.sh Frontend Projects Collection
 
 A collection of projects and exercises (monorepo) developed following the learning paths from [roadmap.sh](https://roadmap.sh/). This repository documents my journey and progress in mastering various web development technologies.
 
