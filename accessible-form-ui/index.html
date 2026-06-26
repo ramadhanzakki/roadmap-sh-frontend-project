@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Accessible Form UI - Roadmap.sh Frontend Project</title>
+</head>
+<body>
+    <section class="container">
+
+        <div class="form-section">
+            <form action="#">
+                <div class="form-input">
+                    <label for="name">Fullname</label>
+                    <br>
+                    <input type="text" id="name" placeholder="What should we call you?">
+                </div>
+
+                <div class="form-input">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="What's your email?">
+                </div>
+
+                <div class="form-input">
+                    <label for="password">Enter Password</label>
+                    <br>
+                    <div class="password-box">
+                        <input type="password" id="confirm" placeholder="Confirm your password here">
+                        <button type="button" id="toggleBtn" class="toggle-password">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-input">
+                    <label for="confirm">Confirm Password</label>
+                    <br>
+                    <div class="password-box">
+                        <input type="password" id="confirm" placeholder="Confirm your password here">
+                        <button type="button" id="toggleBtn" class="toggle-password">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form-input">
+                    <input type="submit" class="submit-btn" value="Update Profile">
+                </div>
+            </form>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar">
+                <span class="progress-value">65%</span>
+            </div>
+            <div class="progress-title">Profile Completeness</div>
+            <div class="task">
+                <ul>
+                    <li class="finish">Create Account</li>
+                    <li class="finish">Update Roadmap Progress</li>
+                    <li class="finish">Setup Public Progress</li>
+                    <li>Complete your first project</li>
+                    <li>Invite your friends</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
