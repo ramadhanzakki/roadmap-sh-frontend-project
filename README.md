@@ -19,7 +19,7 @@ Below is the list of projects included in this repository. Click on the project 
 | **Image Grid Layout** | [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-project/tree/main/image-grid-layout) |
 | **Tooltip UI** | [https://roadmap.sh/projects/tooltip-ui](https://roadmap.sh/projects/tooltip-ui) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/tooltip-ui) |
 | **Accessible Form UI** | [https://roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/accessible-form-ui) |
-| **Tabs** | [https://roadmap.sh/projects/simple-tabs](https://roadmap.sh/projects/simple-tabs) | HTML, CSS | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/tabs) |
+| **Tabs** | [https://roadmap.sh/projects/simple-tabs](https://roadmap.sh/projects/simple-tabs) | HTML, CSS, JavaScript | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/tabs) |
 
 ---
 
