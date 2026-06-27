@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabs - Roadmap.sh frontend Project</title>
+</head>
+<body>
+    <nav>
+        <button onclick="tampilPage('beranda', this)" class="page-btn active">Beranda</button>
+        <button onclick="tampilPage('tentang', this)" class="page-btn ">Tentang</button>
+        <button onclick="tampilPage('portofolio', this)" class="page-btn ">Portofolio</button>
+        <button onclick="tampilPage('kontak', this)" class="page-btn ">Kontak</button>
+    </nav>
+
+    <div id="beranda" class="page aktif">
+        <h1>Selamat Datang👋</h1>
+        <p>Ini merupakan halaman <strong>beranda</strong>. Coba klik tombol navbar diatas untuk pindah tab</p>
+        <p>Perhatikan: halaman tidak benar-benar pindah — yang terjadi adalah JavaScript menyembunyikan konten ini dan menampilkan konten lain.</p>
+    </div>
+
+    <div id="tentang" class="page">
+        <h1>Tentang Saya</h1>
+        <p>Ini halaman Tentang. Konten ini tadi tersembunyi (display: none) dan sekarang ditampilkan JavaScript.</p>
+    </div>
+
+    <div id="portofolio" class="page">
+        <h1>Portofolio</h1>
+        <p>Ini halaman Portofolio. Kamu bisa isi dengan project-project buatanmu di sini.</p>
+    </div>
+
+    <div id="kontak" class="page">
+        <h1>Kontak</h1>
+        <p>Ini halaman Kontak. Bisa diisi form, email, atau link sosmed.</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
