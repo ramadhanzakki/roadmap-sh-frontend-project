@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Age Calculator | Roadmap.sh Frontend Project</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Age Calculator</h1>
+
+        <div class="input-date">
+            <label for="age">Enter your age</label>
+            <input type="text" id="age" placeholder="Enter your birth date">
+            <button id="submitBtn" type="submit">Check your age</button>
+        </div>
+
+        <h3 id="result"></h3>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; line-height: 1.5; font-family: Arial, Helvetica, sans-serif;}
+img, picture, video { max-width: 100%; display: block; }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1{
+    font-size: 2rem;
+}
+
+.input-date{
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-date label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.input-date input{
+    height: 45px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.input-date button{
+    height: 45px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease;
+}
+
+.input-date button:hover{
+    background-color: rgb(91, 89, 89);
+}
+
