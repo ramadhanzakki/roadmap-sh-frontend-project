@@ -22,6 +22,7 @@ Below is the list of projects included in this repository. Click on the project 
 | **Tabs** | [https://roadmap.sh/projects/simple-tabs](https://roadmap.sh/projects/simple-tabs) | HTML, CSS, JavaScript | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/tabs) |
 | **Restricted Textarea** | [https://roadmap.sh/projects/restricted-textarea](https://roadmap.sh/projects/restricted-textarea) | HTML, CSS, JavaScript | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/restricted-textarea) |
 | **Cookie Consent** | [https://roadmap.sh/projects/cookie-consent](https://roadmap.sh/projects/cookie-consent) | HTML, JavaScript | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/cookie-consent) |
+| **Accordion** | [https://roadmap.sh/projects/accordion](https://roadmap.sh/projects/accordion) | HTML, CSS, JavaScript | [View Directory](https://github.com/ramadhanzakki/roadmap-sh-frontend-project/tree/main/accordion) |
 
 ---
 
